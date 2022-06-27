@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="./css/main3.css">
+<link rel="stylesheet" href="./css/hamburgers.css">
+</head>
+<body>
+    <header>
+        <div class="container flex-between">
+            <!-- <div class="logo flex-container vertical-center"> -->
+                <div class="logo">
+                <img src="./LandingImages/airplane 1.png" alt="Самолетик">
+                Transit
+            </div>
+            <div class="navigation-panel flex-container vertical-center">
+                <nav>
+                    <a href="#" class="nav-link center">About</a>
+                    <a href="#" class="nav-link center">Service</a>
+                    <a href="#" class="nav-link center">Destination</a>
+                    <a href="#" class="nav-link center">Contact</a>
+                    <a href="#" class="nav-link right">Login</a>
+                </nav>
+                <button class="register">Register</button>
+            </div>
+            <button class="hamburger hamburger--arrowalt only-mobile" type="button" onclick="toggleBurger()">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    <div class="hero">
+        <!-- <img class="background-image" src="./LandingImages/house1.png" alt="house"> -->
+        <div class="hero-conteiner">
+            <img class="background-image only-dekstop" src="./LandingImages/house1.png" alt="house">
+    <div class="text">
+        <h1 class="caption">
+            Life is short &  the world is wide!
+        </h1>
+        <p class="small-text">
+            A team of devoted and experience tourism will provide you with the best advice and tips
+        </p>
+    </div>
+    <div class="search-bar">
+        <div class="info-link">
+            <img src="./LandingImages/location icon1.png" alt="airplane">
+            <div class="info-section">
+                <div class="section-caption">
+                    Location
+                </div>
+                <div class="section-text">
+                    Mrs Smith 813 Howard Street...
+                </div>
+            </div>
+        </div>
+        <div class="info-link">
+            <img src="./LandingImages/Calender icon.png" alt="calender">
+            <div class="info-section">
+                <div class="section-caption">
+                    Check In
+                </div>
+                <div class="section-text">
+                    31 Dec, 2021
+                </div>
+            </div>
+        </div>
+        <div class="info-link">
+            <img src="./LandingImages/Calender icon.png" alt="calender">
+            <div class="info-section">
+                <div class="section-caption">
+                    Check Out
+                </div>
+                <div class="section-text">
+                    31 Dec, 2021
+                </div>
+            </div>
+        </div>
+        <div class="info-link">
+            <img src="./LandingImages/Avatar icon.png" alt="avatar">
+            <div class="info-section">
+                <div class="section-caption">
+                    Travelers
+                </div>
+                <div class="section-text">
+                    2 Adult, 1 Child
+                </div>
+            </div>
+        </div>
+        <button class="search">
+            <img src="./LandingImages/Button1.png" alt="loupe">Search
+        </button>
+    </div>
+</div>
+</div>
+<div class="services">
+    <div class="services-container">
+<div class="services-caption">
+    <h2>Explore Our Wonderful Services</h2>
+    <p>Feel the excited activities on the way you’re going to trip,</p>
+</div>
+<div class="services-advantage only-dekstop">
+    <div class="advantage">
+        <div class="icon">
+           <img src="./LandingImages/discount 1.png" alt="procent"> 
+        </div>
+        <h5>A lots of discount</h5>
+        <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+    </div>
+    <div class="advantage">
+        <div class="icon">
+           <img src="./LandingImages/Group.png" alt="Man"> 
+        </div>
+        <h5>Best tour guide</h5>
+        <p>Through our direct-to-consum
+            model, we’re able to provide
+            best prices and best value.</p>
+    </div>
+    <div class="advantage">
+        <div class="icon">
+           <img src="./LandingImages/care 1.png" alt="hands"> 
+        </div>
+        <h5>24/7 Support</h5>
+        <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+    </div>
+    <div class="advantage last">
+        <div class="icon">
+           <img src="./LandingImages/booking 1.png" alt="finger">
+        </div>
+        <h5>Easy booking system</h5>
+        <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+    </div>
+</div>
+<div class="services-advantage only-mobile">
+    <div class="carousel-wrapper">
+        <button class="carousel-arrow left" onclick="plusSlides(-1)">
+            <img src="./LandingImages/arrow-left.png" alt="Carousel-button">
+        </button>
+        <button class="carousel-arrow right" onclick="plusSlides(1)">
+            <img src="./LandingImages/arrow-left.png" alt="Carousel-button">
+        </button>
+        <div class="carousel-frame-advantage">
+    <div class="advantage">
+        <div class="icon">
+           <img src="./LandingImages/discount 1.png" alt="procent"> 
+        </div>
+        <h5>A lots of discount</h5>
+        <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+    </div>
+    <div class="advantage">
+        <div class="icon">
+           <img src="./LandingImages/Group.png" alt="Man"> 
+        </div>
+        <h5>Best tour guide</h5>
+        <p>Through our direct-to-consum
+            model, we’re able to provide
+            best prices and best value.</p>
+    </div>
+    <div class="advantage">
+        <div class="icon">
+           <img src="./LandingImages/care 1.png" alt="hands"> 
+        </div>
+        <h5>24/7 Support</h5>
+        <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+    </div>
+    <div class="advantage last">
+        <div class="icon">
+           <img src="./LandingImages/booking 1.png" alt="finger">
+        </div>
+        <h5>Easy booking system</h5>
+        <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+    </div>
+</div>
+<div class="carousel-switcher">
+    <button class="carousel-switch"></button>
+    <button class="carousel-switch"></button>
+    <button class="carousel-switch"></button>
+    <button class="carousel-switch"></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="destination">
+    <div class="destination-container">
+    <h2>Top Destination For You</h2>
+    <p>Let’s go on an adventure and enjoy your life</p>
+    <div class="links">
+    <div class="destination-link">
+        <a href="#">Featured</a>
+        <a href="#">Popular</a>
+        <a href="#">Recommendation</a>
+        <a href="#">Resort</a>
+    </div>
+    <a href="#" class="link-onward only-dekstop">
+        View All Destination <img src="./LandingImages/arrow-up-right.png">
+    </a>
+</div>
+
+<div class="places-price only-dekstop">
+</div>
+<div class="places-price only-mobile">
+    <div class="carousel-wrapper">
+        <button class="carousel-arrow left" >
+            <img src="./LandingImages/arrow-left.png" alt="Carousel-button">
+        </button>
+        <button class="carousel-arrow right">
+            <img src="./LandingImages/arrow-left.png" alt="Carousel-button">
+        </button>
+        <div class="carousel-frame">
+   
+</div>
+<div class="carousel-switcher">
+    <button class="carousel-switch"></button>
+    <button class="carousel-switch"></button>
+    <button class="carousel-switch"></button>
+    <button class="carousel-switch"></button>
+</div>
+    </div>
+    </div>
+<a href="#" class="link-onward only-mobile">
+    View All Destination <img src="./LandingImages/arrow-up-right.png">
+</a>
+</div>
+</div>
+<div class="booking-system">
+    <div class="booking-system-container">
+    <h2>Book your next tour in 3
+        easy steps</h2>
+        <p>Our unique booking step process gives you peace of mind from service</p>
+<div class="search-destination">
+    <img src="./LandingImages/Lupa.png" alt="loupe">
+    <h3>1. Search a destination </h3>
+    <p>Find a destination or space from our search bar.
+        Enter your specific location, destination and price.
+        Simple! destination or space from our search bar. </p>
+        <img class="activity only-dekstop" src="./LandingImages/Search Activity.png" alt="activity">
+        <img class="first-girl only-dekstop" src="./LandingImages/girl1.png" alt="girl">
+</div>
+<div class="select-destination">
+    <img src="./LandingImages/finger.png" alt="finger">
+    <h3>2. Choose your destination </h3>
+    <p>Find a destination or space from our search bar.
+        Enter your specific location, destination and price.
+        Simple! destination or space from our search bar. </p>
+        <img class="select-activity only-dekstop" src="./LandingImages/Select Activity.png" alt="select">
+        <img class="second-girl only-dekstop" src="./LandingImages/girl2.png" alt="girls">
+</div> 
+<div class="booking-destination">
+    <img src="./LandingImages/card.png" alt="card">
+    <h3>3. Booking your destination</h3>
+    <p>Find a destination or space from our search bar.
+        Enter your specific location, destination and price.
+        Simple! destination or space from our search bar. </p>
+        <img class="payment only-dekstop" src="./LandingImages/Payment method.png" alt="payment">
+        <img class="girl-with-card only-dekstop" src="./LandingImages/girl3.png" alt="girl">
+</div>
+</div>
+    </div>
+    <div class="testimonial">
+        <div class="testimonial-conteiner">
+            <a href="#" class="link-onward only-mobile">See all review <img src="./LandingImages/arrow-up-right.png">
+            </a>
+        <div class="testimonials">
+    </div>
+        <div class="Text-Testimonial only-dekstop">
+            <h2>See what lovely customers have to say about us!</h2>
+            <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+            <a href="#" class="link-onward">See all review <img src="./LandingImages/arrow-up-right.png">
+            </a>
+        </div>
+        <div class="Text-Testimonial only-mobile">
+            <p>Through our direct-to-consum model, we’re able to provide best prices and best value.</p>
+            <h2>See what lovely customers have to say about us!</h2> 
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footer-conteiner">
+        <div class="newsletter">
+            <h3>Subscribe To Get Special Price</h3>
+            Don’t  wannna miss something? Subscribe and get special promotion and monthly newsletter
+            <div class="email">
+            <input type="text" placeholder="Enter email address"> 
+            <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        <div class="general-information">
+        <div class="transit">
+            <h4>Transit</h4>
+            <p>A Team of devoted and experience tourism professionals will provide you with the best advice.</p>
+        </div>
+        <ul class="column-first">
+            <h4>About</h4>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Menu</a></li>
+
+        </ul>
+        <ul class="column-two">
+            <h4>Company</h4>
+            <li><a href="#">Why Transit?</a></li>
+            <li><a href="#">Partner With Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+
+        </ul>
+        <ul class="column-three">
+            <h4>Support</h4>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Accesbility</a></li>
+        </ul>
+        <ul>
+            <h4>Contact Us</h4>
+            <li><a href="#">+0123-456-789</a></li>
+            <li><a href="#">www.example.com</a></li>
+            <li><a href="#">example@gmail.com</a></li>
+            <li><a href="#">56, Rajar Golli, Amborkhana, Sylhet</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        <p>Copyright 2021 Transit. All Right Reseved.</p>
+        <div class="icons">
+            <a  href="#" ><img src="./css/fb.png" alt="fb"></a>
+                <a href="#"><img src="./LandingImages/in.png" alt="in"></a>
+                <a href="#"><img src="./LandingImages/twitter.png" alt="tw"></a>
+                <a href="#"><img src="./LandingImages/insta.png" alt="insta"></a>
+            </div>
+        </div>
+</div>
+</div>
+<script src="./js/common-stuff.js"></script>
+</body>
+</html>

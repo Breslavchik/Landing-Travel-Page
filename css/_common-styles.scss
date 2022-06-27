@@ -1,0 +1,135 @@
+// $background-accent-color:
+
+.container {
+    z-index: 1;
+    max-width: 1395px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    //position: absolute;
+    padding: 30px 75px 20px 77px;
+    margin: 0 auto 0 auto;
+    //left: 177px;
+
+}
+
+.flex-container {
+    display: flex;
+
+    &.vertical-center {
+        align-items: center;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+.logo {
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    color: #00232B;
+
+    img {
+        margin-right: 18px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #757575;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffffff00;
+
+    &.center {
+        margin-right: 59px;
+    }
+
+    &.right {
+        margin-left: 115px;
+        margin-right: 40px;
+    }
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #FF9A16;
+    color:#FF9A16;
+}
+
+.register {
+    width: 106px;
+    height: 44px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FF9A16;
+    background-color: #FFF0DB;
+    border-radius: 6%;
+    border:0; 
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: #FF9A16;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px){
+    .container {
+        z-index: 3;
+        max-width: 900px;
+    }
+
+    .navigation-panel {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 89px;
+        transform: translateY(-150%);
+        transition: transform .5s ease-in-out, -webkit-transform .10s cubic-bezier(0.4, 0, 0.19, 0.99);
+        &.is-visible {
+            transform: translateY(0);
+        }
+    }
+    nav {
+        flex-direction: column;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    .nav-link {
+        margin: 0 auto;
+    
+    &.center {
+        margin: 0 auto;
+    }
+
+    &.right {
+        margin: 0 auto;
+    }
+    }
+
+    .container {
+        
+           padding: 30px 25px 20px 10px;
+           margin: 0 auto 0 auto;
+    }   
+}
+
+
+
